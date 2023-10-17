@@ -1,0 +1,39 @@
+/* Navbar section */
+.navbar{
+  background-image: url(https://wallpapers.com/images/hd/professional-background-0rvi0y9hjbs1yq1q.jpg);
+}
+
+.navbar  a{
+  color: white;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.dropdown-menu{
+  background-color: rgb(2, 2, 63);
+}
+
+.sectionHeading{
+  text-align: center;
+}
+
+.about-section{
+  background-image: url(assets/images/Aliheadshot.jpeg);
+}
+
+/* Profile photo */
+img{
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 200px;
+  display: block;
+  margin: auto;
+}
+
+.cardContainer{
+  padding: 10px;
+}
+
