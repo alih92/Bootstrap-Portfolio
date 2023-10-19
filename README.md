@@ -6,5 +6,6 @@ Bootstrap makes it much easier to apply content into different sections of a web
 
 I started off with using a Bootstrap Navbar which I then styled using CSS. I then used a jumbotron for the hero section, portraying an image of myself and a quick description of who I am. Next, i used cards, utilizing the grid system of bootstrap, to display projects I have worked on so far. Then, the skills section as completed using the progress bar library in bootstrap. Cards again were used to portray a quick Bio section and Contact information. I finished off with a footer which includes links on different methods of contacting me. The HTML and CSS has been widely commented to easily identify different sections of the page. 
 
+<a href="https://alih92.github.io/Bootstrap-Portfolio/">Click here for my Personal Portfolio webpage</a>
 
 ![Alt text](<Screenshot 2023-10-19 at 14.20.08.png>)
