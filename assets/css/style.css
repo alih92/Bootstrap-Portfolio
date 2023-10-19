@@ -20,6 +20,7 @@
   text-align: center;
 }
 
+/* Jumbotron section */
 .about-section{
   background-image: url(assets/images/Aliheadshot.jpeg);
 }
@@ -33,7 +34,54 @@ img{
   margin: auto;
 }
 
+/* Work section */
 .cardContainer{
   padding: 10px;
 }
 
+/* Skills section */
+.skills-content{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* Bio/Contact section */
+
+.contact-me p{
+  line-height: 2.3;
+}
+
+.row h5{
+  text-align: center;
+}
+
+#contact {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.25),0 3px 10px 0 rgba(0,0,0,.2);
+  padding: 1%;
+  margin-top: 1%;
+
+}
+
+#contact h2{
+  display: flex;
+  justify-content: center;
+
+}
+
+#contact-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%; 
+}
+
+/* footer section */
+
+footer {
+  text-align: center;
+}
+
+footer h5{
+padding-top: 20px;
+}

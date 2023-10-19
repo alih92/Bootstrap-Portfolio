@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Bootstrap Portfolio</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#">Bio</a>
+          <a class="nav-link " aria-current="page" href="#Bio">Bio</a>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Projects
@@ -48,7 +48,7 @@
   <div class="container-fluid py-3 about-section">
     <img src="./assets/images/Aliheadshot.jpeg"/>
     <h1 class="display-6 fw-bold">A little bit about me...</h1>
-    <p class="col-md-8 fs-6">Hi, I'm Ali Halavurt and I live in London. I have studied Biomedical Science and have been working in the scientific field for 7 years. In my current role I utilize my troubleshooting skills and provide workflow assessments to clients to help speed up processes, design lean solutions and minimise/manage waste. I am new to Web Development and eager to start this next chapter of my life, creating applications that are user-friendly and easily navigable.</p>
+    <p class="col-md-8 fs-6">Hi, I'm Ali Halavurt and I live in London. I have studied Biomedical Science and have been working in the scientific field for 7 years. In my current role I utilize my troubleshooting skills and provide workflow assessments to clients to help speed up processes, design lean solutions and minimise/manage waste. I am new to Web Development and eager to start this next chapter of my life, creating applications that are user-friendly, easily navigable and captivating.</p>
     <a href="#work-content" class="btn btn-primary btn-lg" type="button">Click to find out more</a>
   </div>
 </div>
@@ -102,7 +102,7 @@
             <!-- End card 3 -->
   </div>
 </div>
-        <!-- End cards -->
+        <!-- End Project cards -->
 
 <!-- Skills section -->
 
@@ -128,19 +128,47 @@
   <div class="progress">
     <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
   </div>
+</div>
+<!-- End Skills section -->
 
 <!-- About Me/Contact Me section -->
-
-<section class="container-fluid" id="contact-info">
-  <div class="about-me contact-me">
-    <h2>Bio/Contact Me</h2>
-    <p class="col-md-8 fs-6">I enjoy reading and creatively writing when I can. I'm a fan of anime, thrillers and enjoy listening/watching true crime documentaries. I have always enjoyed exploring, and travelling has been a huge passion of mine. I have been fortunate enough to travel some, however, if I could, I would travel the world; exploring other cultures, meeting new people and learning new and exciting things is what makes me fulfilled and happy.</p>
-  </div> 
-  <div class="about-me contact-me">
-    <h2>Bio</h2>
-    <h3>Name: Ali Halavurt<br>Email: alih_09@hotmail.com<br> Phone: 07703519305<br> Address: 14 CHelsea Gardens, London, CM17 9RX</h3>
-  </div>  
+<section>
+  <div class="row">
+    <div class="col-sm-6 Bio" id="Bio">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Bio</h5>
+          <p class="card-text">I enjoy playing football, reading and creatively writing when I can. I'm a fan of anime, thrillers and enjoy listening/watching true crime documentaries. I have always enjoyed exploring, and travelling has been a huge passion of mine. I have been fortunate enough to travel some, however, if I could, I would travel the world; exploring other cultures, meeting new people and learning new and exciting things is what makes me fulfilled and happy.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 contact-me">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Contact Me</h5>
+          <p class="card-text">Name: Ali Halavurt<br>Email: alih_09@hotmail.com<br> Phone: 07703519305<br> Address: 14 Chelsea Gardens, London, CM17 9RX</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
+<!-- End About me/contact section -->
+
+<!-- Footer -->
+<footer
+  class="page-section contact" id="contact">
+    <div id="contact-container">
+      <a href = "mailto: alih_09@hotmail.com"><i style="font-size:24px" class="fa fa-fw">&#xf0e0;</i>Send Email</a>
+      <a href="https://www.linkedin.com/in/ali-halavurt-bsc-a8225992" target="_blank"><i style="font-size:24px" class="fa fa-fw">&#xf08c;</i>LinkedIn</a>
+      <a href="https://github.com/alih92" target="_blank"><i style="font-size:24px" class="fa fa-fw">&#xf09b;</i>GitHub</a>
+      <a href="tel:07777777777"><i style="font-size:24px" class="fa fa-fw">&#xf095;</i>Mobile</a>
+  </div>
+  <h5>Ali Halavurt</h5>
+  <p>&#169 Web Development Portfolio</p>  
+</footer>
+
+<!-- End footer -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
